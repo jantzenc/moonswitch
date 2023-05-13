@@ -11,7 +11,7 @@ module "route53_zones" {
 
 resource "aws_route53_record" "klab" {
   provider = aws.route53_account
-  
+
   zone_id = "Z0846818RKHCRXHX0PX4"
   name    = "klab"
   type    = "NS"
